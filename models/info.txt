@@ -1,0 +1,4 @@
+all models were trained using google colab : https://colab.research.google.com/
+
+tensorflow version : 2.15.0
+python version : 3.10.5
