@@ -1,8 +1,8 @@
 # Inverse Design of Plasmonics Nanoparticles using Tandem and cVAE Networks
 
-This repository is a part of <i>Leveraging Generative Neural Networks for Accurate, Diverse, and Robust Nanoparticle Design</i>, DOI:###.
+This repository is a part of *Leveraging Generative Neural Networks for Accurate, Diverse, and Robust Nanoparticle Design*, DOI:###.
 
-## Table of Contents:
+## Table of Contents
 
 - Getting Started
 - Dataset Generation
