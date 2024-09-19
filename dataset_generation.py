@@ -2,7 +2,7 @@ import numpy as np
 from DataGen import DataGen
 import time
 
-# Material indices:
+# Material ids:
 # 0-None 1-Ag 2-Al 3-Au 4-Cu 5-GaAs 6-InAs 7-InP 8-Mo 9-Si 10-SiO2
 
 THICKNESS_INC = 2 # Increment in layer thickness.
