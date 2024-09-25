@@ -35,11 +35,11 @@ Listed below are the versions of the various modules used during the project.
 
 - Python - 3.10.5
 - Scattnlay - 2.2.0
-- Numpy - #
-- Pandas - #
-- Matplotlib - #
+- Numpy - 1.25.2
+- Pandas - 2.0.3
+- Matplotlib - 3.7.1
 - Tensorflow - 2.15.0
-- Keras - #
+- Keras - 2.15.0
 
 The Tensorflow version should be at least 2.15.0. The versions of the other modules does not seem crucial, however we still suggest using the latest versions available.
 
