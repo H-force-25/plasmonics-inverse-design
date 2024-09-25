@@ -2,12 +2,22 @@
 
 This repository is a part of *Leveraging Generative Neural Networks for Accurate, Diverse, and Robust Nanoparticle Design*, DOI:###.
 
+## Introduction
+
 ## Table of Contents
 
-- Getting Started
-- Dataset Generation
-- Model Training
-- Model Testing
+1. Getting Started
+
+    - Prerequisites
+    - How to Use
+
+2. Repository Structure
+
+3. Dataset Generation
+
+4. Model Training
+
+5. Model Testing
 
 ## Getting Started
 
@@ -44,4 +54,28 @@ The Tensorflow version should be at least 2.15.0. The versions of the other modu
     - Unzipping **training_dataset.7z** in the Dataset directory.
     - Running **dataset_generation.py**.
 
-3. Train the models.
+3. Train the models. The notebooks for training are available in the Training Notebooks directory.
+
+4. Test the models. This can be done with the **model_prediction_and_testing.ipynb** notebook.
+
+### Repository Structure
+
+Directories:
+
+- Dataset: Contains the dataset required for model training.
+
+- Models: Contains the trained models.
+
+- Refractive index interpolated: Contains refractive indices of the materials used during the project. Required for calculating the plasmonics response using Mie theory.
+
+- Spectra: Contains the experimentally obtained absorption spectrum for a Au@Ag core-shell nanoparticle. Used for testing the models.
+
+- Training Notebooks: Contains the notebooks for training the various models.
+
+Files:
+
+- DataGen.py: Uses the python module *scattnlay* to calculate the plasmonics response of a multi-layered nanoparticle using Mie theory. The file can be used to generate as well as normalize the extinction, scattering and absorption cross-sections.
+
+- dataset_generation.py: Allows for the manual generation of a new training dataset.
+
+- model_prediction_and_testing.ipynb: Notebook that allows for the testing of the trained models.
