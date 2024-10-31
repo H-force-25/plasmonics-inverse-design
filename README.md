@@ -15,9 +15,15 @@ This repository is a part of *Leveraging Generative Neural Networks for Accurate
 
 3. [Dataset structure](#dataset-structure)
 
+    - [Material IDs](#material-ids)
+    - [Thickness](#thickness)
+    - [Dielectric host medium](#dielectric-host-medium)
+    - [Absorption cross-sections](#absorption-cross-sections)
+    - [Dataset generation](#dataset-generation)
+
 4. [Model training](#model-training)
 
-5. [Model testing](#model-prediction-and-testing)
+5. [Model prediction and testing](#model-prediction-and-testing)
 
 ## Getting started
 
