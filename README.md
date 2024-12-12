@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is a part of *Leveraging Generative Neural Networks for Accurate, Diverse, and Robust Nanoparticle Design*, DOI:###.
+This repository is a part of [*Leveraging generative neural networks for accurate, diverse, and robust nanoparticle design*](https://pubs.rsc.org/en/content/articlelanding/2025/na/d4na00859f), **DOI:** 10.1039/d4na00859f.
 
 ## Table of contents
 
